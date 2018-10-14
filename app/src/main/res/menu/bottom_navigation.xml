@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:title="Beranda"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/menu_kategori"
+        android:title="Kategori"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_class_black_24dp" />
+    <item
+        android:id="@+id/menu_keranjang"
+        android:title="Keranjang"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_shopping_cart_black_24dp" />
+    <item
+        android:id="@+id/menu_transaksi"
+        android:title="Transaksi"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_payment_black_24dp" />
+    <item
+        android:id="@+id/menu_profil"
+        android:title="Profil"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_account_circle_black_24dp" />
+</menu>
+
